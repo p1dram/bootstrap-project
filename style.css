@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+.heading-container {
+margin: auto;
+align-items :center;
+background-color :rgb(83, 168, 101);
+background-image: url(https://csite.nicepage.com/Images/Site/free-html-templates-1200.jpg?v=4);
+background-position-x: 50%;
+background-position-y :50%;
+background-size: cover;
+border-bottom-left-radius :10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius :10px;
+border-top-right-radius: 10px;
+box-sizing :border-box;
+color :rgb(51, 51, 51);
+display :flex;
+flex-direction :column;
+font-family :Roboto, Arial, "sans-serif";
+font-size :13px;
+height :350px;
+justify-content: center;
+line-height :18.5714px;
+min-height :350px;
+padding-bottom: 10px;
+padding-left :10px;
+padding-right  :10px;
+padding-top :10px;
+position :relative;
+text-align :center;
+width :1200px;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+.heading-block{
+    box-sizing :border-box;
+color: rgb(255, 255, 255);
+display :block;
+font-family: Roboto, Arial, "sans-serif";
+font-size :13px;
+height :257.2px;
+line-height :18.5714px;
+max-width: 630px;
+text-align: center;
+text-size-adjust: 100%;
+width :363.2px;
+-webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color :rgba(0, 0, 0, 0);
+}
+.slider{
+    width: 100% ;
+   
+
+}
+.card2{
+    transition: 0.5s;
+}
+.card1{
+    transition: 0.5s;
+}
+.card2:hover{
+    border-color: rgb(13, 110, 253);
+    box-shadow: 0 0 10px 2px rgb(13, 110, 253) ;
+}
+.card1:hover{
+  border-color: rgb(0, 0, 0);
+box-shadow: 0 0 10px 2px  rgb(0, 0, 0);
+}

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>templates</title>
+    <link rel="shortcut icon" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assest/img/logo-w.jpg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Download</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">400+Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >10,000+ Templates</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Website Templates </a>
+                </li>
+                <li><a class="dropdown-item" href="#">Wordpress Themes</a></li>
+                <li><a class="dropdown-item" href="#">Html templates</a></li>
+                <li><a class="dropdown-item" href="#">Templates</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Website Builders
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Html website builder</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Jomla page builder</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Forums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prmium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Help
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Documntation</a>
+                </li>
+                <li><a class="dropdown-item" href="#"> contact support</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button
+              class="btn btn-outline-secondary mx-2 rounded-bottom"
+              type="submit"
+            >
+              Register
+            </button>
+            <button class="btn btn-outline-primary" type="submit">
+              Sign in
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br /><br />
+    <br />
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="heading-container col-12 my-5">
+          <div class="heading-block">
+            <h1 class="text-light">10,000+ Free HTML Templates</h1>
+            <form
+              action="/html-templates"
+              id="search-form"
+              method="get"
+              novalidate="novalidate"
+            >
+              <input type="hidden" name="term" id="term" />
+              <input
+                aria-label="Enter Search Keywords"
+                class="form-control search-input ui-autocomplete-input"
+                id="key"
+                name="key"
+                placeholder="Enter Keywords"
+                type="text"
+                value=""
+                autocomplete="off"
+              />
+              <input
+                type="submit"
+                value=""
+                class="btn search-btn"
+                onclick="return submitSearchForm(event)"
+              />
+            </form>
+            <div class="heading-description text-light">
+              Best HTML Template Free Download. HTML Website Templates, Basic
+              and Simple HTML Templates. Responsive and fully customizable with
+              easy Drag-n-Drop HTML Website Builder
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <h2 class="my-5 text-center col-12">HTML Template Categories</h2>
+    </div>
+
+    <div
+      class="swiffy-slider slider-item-show4 slider-nav-outside slider-nav-dark slider-nav-sm slider-nav-visible slider-nav-page slider-item-snapstart slider-nav-autoplay slider-nav-autopause slider-item-ratio slider-item-ratio-contain slider-item-ratio-32x9 bg-white shadow-lg py-3 py-lg-4"
+      data-slider-nav-autoplay-interval="2000"
+    >
+      <div class="slider-container">
+        <div>
+          <img src="assest/img/nodejs-1.svg" loading="lazy" alt="..." />
+        </div>
+        <div><img src="assest/img/vue-9.svg" loading="lazy" alt="..." /></div>
+        <div>
+          <img src="assest/img/eslint-1.svg" loading="lazy" alt="..." />
+        </div>
+        <div><img src="assest/img/nuxt-2.svg" loading="lazy" alt="..." /></div>
+        <div><img src="assest/img/react-2.svg" loading="lazy" alt="..." /></div>
+        <div>
+          <img src="assest/img/prettier-2.svg" loading="lazy" alt="..." />
+        </div>
+        <div>
+          <img src="assest/img/DWLogoColor_sm.svg"" loading="lazy" alt="...">
+        </div>
+        <div><img src="assest/img/next-js.svg" loading="lazy" alt="..." /></div>
+        <div><img src="assest/img/html-1.svg" loading="lazy" alt="..." /></div>
+        <div>
+          <img src="assest/img/github-icon.svg" loading="lazy" alt="..." />
+        </div>
+        <div>
+          <img src="assest/img/github-2.svg" loading="lazy" alt="..." />
+        </div>
+        <div><img src="assest/img/css-3.svg" loading="lazy" alt="..." /></div>
+        <div>
+          <img src="assest/img/bootstrap-5.svg" loading="lazy" alt="..." />
+        </div>
+        <div>
+          <img src="assest/img/webpack-icon.svg" loading="lazy" alt="..." />
+        </div>
+        <div>
+          <img src="assest/img/angular-icon-1.svg" loading="lazy" alt="..." />
+        </div>
+      </div>
+
+      <button type="button" class="slider-nav" aria-label="Go left"></button>
+      <button
+        type="button"
+        class="slider-nav slider-nav-next"
+        aria-label="Go left"
+      ></button>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center my-3 mx-3">
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card2">
+            <img src="assest/img/future7.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card2">
+            <img src="assest/img/future7.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card2">
+            <img src="assest/img/future7.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card2">
+            <img src="assest/img/future7.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card1">
+            <img src="assest/img/future2.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card1 h-100">
+            <img src="assest/img/future2.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card1 h-100">
+            <img src="assest/img/future2.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 col-xxl-3 my-3">
+          <div class="card1 h-100">
+            <img src="assest/img/future2.avif" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark w-100">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="text-success text-center p-3">nature</h3>
+    <div
+      class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein"
+    >
+      <ul class="slider-container py-4">
+        <li class="slide-visible">
+          <div class="card shadow h-100">
+            <div class="ratio ratio-16x9">
+              <img
+                src="assest/img/grass_green_sky_blue_clouds_summer-796024.jpg!d"
+                class="card-img-top"
+                loading="lazy"
+                alt="..."
+              />
+            </div>
+            <div class="card-body p-3 p-xl-5">
+              <h3 class="card-title h5">Road trip in the wilderness</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </li>
+        <li class="slide-visible">
+          <div class="card shadow h-100">
+            <div class="ratio ratio-16x9">
+              <img
+                src="assest/img/trees_horizon_summer_row_clouds_meadow_blue_green-1063753.jpg!d"
+                class="card-img-top"
+                loading="lazy"
+                alt="..."
+              />
+            </div>
+            <div class="card-body p-3 p-xl-5">
+              <h3 class="card-title h5">To the hidden lake side</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card shadow h-100">
+            <div class="ratio ratio-16x9">
+              <img
+                src="assest/img/VlPke7.webp"
+                class="card-img-top"
+                loading="lazy"
+                alt="..."
+              />
+            </div>
+            <div class="card-body p-3 p-xl-5">
+              <h3 class="card-title h5">Up, up, up in the Air</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card shadow h-100">
+            <div class="ratio ratio-16x9">
+              <img
+                src="assest/img/122-1224301_hq-field-wallpapers-slavkov-forest.jpg"
+                class="card-img-top"
+                loading="lazy"
+                alt="..."
+              />
+            </div>
+            <div class="card-body p-3 p-xl-5">
+              <h3 class="card-title h5">A climbers birds view</h3>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <button type="button" class="slider-nav" aria-label="Go left"></button>
+      <button
+        type="button"
+        class="slider-nav slider-nav-next"
+        aria-label="Go left"
+      ></button>
+
+      <div class="slider-indicators">
+        <button class="" aria-label="Go to slide"></button>
+        <button aria-label="Go to slide" class=""></button>
+        <button aria-label="Go to slide" class="active"></button>
+      </div>
+    </div>
+    
+    >
+    <div class="bg-secondary text-center my-3 text-light">
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
+        qui ullam, officia quaerat repudiandae ipsam sed commodi ratione quam?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        voluptatem ab dignissimos architecto itaque provident similique nisi
+        odio, laudantium nesciunt! Voluptas, ex? Ab sint blanditiis porro quia,
+        iste veritatis hic qui vitae. Ipsam, ut dolores alias optio tempora a
+        qui. Fugiat, magnam! Earum rerum repudiandae alias, ullam obcaecati rem
+        nam sapiente? Delectus labore qui ea, quis porro beatae in molestiae.
+      </p>
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
+        qui ullam, officia quaerat repudiandae ipsam sed commodi ratione quam?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        voluptatem ab dignissimos architecto itaque provident similique nisi
+        odio, laudantium nesciunt! Voluptas, ex? Ab sint blanditiis porro quia,
+        iste veritatis hic qui vitae. Ipsam, ut dolores alias optio tempora a
+        qui. Fugiat, magnam! Earum rerum repudiandae alias, ullam obcaecati rem
+        nam sapiente? Delectus labore qui ea, quis porro beatae in molestiae.
+      </p>
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
+        qui ullam, officia quaerat repudiandae ipsam sed commodi ratione quam?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        voluptatem ab dignissimos architecto itaque provident similique nisi
+        odio, laudantium nesciunt! Voluptas, ex? Ab sint blanditiis porro quia,
+        iste veritatis hic qui vitae. Ipsam, ut dolores alias optio tempora a
+        qui. Fugiat, magnam! Earum rerum repudiandae alias, ullam obcaecati rem
+        nam sapiente? Delectus labore qui ea, quis porro beatae in molestiae.
+      </p>
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
+        qui ullam, officia quaerat repudiandae ipsam sed commodi ratione quam?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        voluptatem ab dignissimos architecto itaque provident similique nisi
+        odio, laudantium nesciunt! Voluptas, ex? Ab sint blanditiis porro quia,
+        iste veritatis hic qui vitae. Ipsam, ut dolores alias optio tempora a
+        qui. Fugiat, magnam! Earum rerum repudiandae alias, ullam obcaecati rem
+        nam sapiente? Delectus labore qui ea, quis porro beatae in molestiae.
+      </p>
+      <h3>Lorem ipsum dolor sit.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam earum
+        qui ullam, officia quaerat repudiandae ipsam sed commodi ratione quam?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+        voluptatem ab dignissimos architecto itaque provident similique nisi
+        odio, laudantium nesciunt! Voluptas, ex? Ab sint blanditiis porro quia,
+        iste veritatis hic qui vitae. Ipsam, ut dolores alias optio tempora a
+        qui. Fugiat, magnam! Earum rerum repudiandae alias, ullam obcaecati rem
+        nam sapiente? Delectus labore qui ea, quis porro beatae in molestiae.
+      </p>
+    </div>
+    <footer>
+      <div class="container-fluid gy-5">
+        <div class="row bg-dark p-5">
+          <div class="col-md-3 widget text-light">
+            <h3 class="widget-title">Contact</h3>
+            <div class="widget-body">
+              <p>
+                +234 23 9873237<br />
+                <a href="mailto:#">some.email@somewhere.com</a><br />
+                <br />
+                234 Hidden Pond Road, Ashland City, TN 37015
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 widget text-light">
+            <h3 class="widget-title">Follow me</h3>
+            <div class="widget-body">
+              <p class="follow-me-icons">
+                <a href=""
+                  ><i
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="currentColor"
+                      class="bi bi-shield"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"
+                      /></svg></i
+                ></a>
+                <a href=""
+                  ><i
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="currentColor"
+                      class="bi bi-rocket-takeoff-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.578 3.578 0 0 0-.108-.563 2.22 2.22 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2.35 2.35 0 0 0-.16-.045 3.797 3.797 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.552 2.552 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526l.24-2.408Zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361.599.599.437 1.732-.36 2.531Z"
+                      />
+                      <path
+                        d="M5.205 10.787a7.632 7.632 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925Z"
+                      /></svg></i
+                ></a>
+                <a href=""
+                  ><i
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="currentColor"
+                      class="bi bi-browser-firefox"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M13.384 3.408c.535.276 1.22 1.152 1.556 1.963a7.98 7.98 0 0 1 .503 3.897l-.009.077a8.533 8.533 0 0 1-.026.224A7.758 7.758 0 0 1 .006 8.257v-.04c.016-.363.055-.724.114-1.082.01-.074.075-.42.09-.489l.01-.051a6.551 6.551 0 0 1 1.041-2.35c.217-.31.46-.6.725-.87.233-.238.487-.456.758-.65a1.5 1.5 0 0 1 .26-.137c-.018.268-.04 1.553.268 1.943h.003a5.744 5.744 0 0 1 1.868-1.443 3.597 3.597 0 0 0 .021 1.896c.07.047.137.098.2.152.107.09.226.207.454.433l.068.066.009.009a1.933 1.933 0 0 0 .213.18c.383.287.943.563 1.306.741.201.1.342.168.359.193l.004.008c-.012.193-.695.858-.933.858-2.206 0-2.564 1.335-2.564 1.335.087.997.714 1.839 1.517 2.357a3.72 3.72 0 0 0 .439.241c.076.034.152.065.228.094.325.115.665.18 1.01.194 3.043.143 4.155-2.804 3.129-4.745v-.001a3.005 3.005 0 0 0-.731-.9 2.945 2.945 0 0 0-.571-.37l-.003-.002a2.679 2.679 0 0 1 1.87.454 3.915 3.915 0 0 0-3.396-1.983c-.078 0-.153.005-.23.01l-.042.003V4.31h-.002a3.882 3.882 0 0 0-.8.14 6.454 6.454 0 0 0-.333-.314 2.321 2.321 0 0 0-.2-.152 3.594 3.594 0 0 1-.088-.383 4.88 4.88 0 0 1 1.352-.289l.05-.003c.052-.004.125-.01.205-.012C7.996 2.212 8.733.843 10.17.002l-.003.005.003-.001.002-.002h.002l.002-.002a.028.028 0 0 1 .015 0 .02.02 0 0 1 .012.007 2.408 2.408 0 0 0 .206.48c.06.103.122.2.183.297.49.774 1.023 1.379 1.543 1.968.771.874 1.512 1.715 2.036 3.02l-.001-.013a8.06 8.06 0 0 0-.786-2.353Z"
+                      /></svg></i
+                ></a>
+                <a href=""
+                  ><i
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="currentColor"
+                      class="bi bi-broadcast-pin"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"
+                      />
+                    </svg> </i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 widget text-light">
+            <h3 class="widget-title">Text widget</h3>
+            <div class="widget-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                nihil natus explicabo ipsum quia iste aliquid repellat eveniet
+                velit ipsa sunt libero sed aperiam id soluta officia asperiores
+                adipisci maxime!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                nihil natus explicabo ipsum quia iste aliquid repellat eveniet
+                velit ipsa sunt libero sed aperiam id soluta officia asperiores
+                adipisci maxime!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 widget text-light">
+            <h3 class="widget-title">Form widget</h3>
+            <div class="widget-body">
+              <p>
+                +234 23 9873237<br />
+                <a href="mailto:#">some.email@somewhere.com</a><br />
+                <br />
+                234 Hidden Pond Road, Ashland City, TN 37015
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
